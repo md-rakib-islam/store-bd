@@ -25,22 +25,31 @@
 </head>
 
 <body>
-  <header></header>
-  <main class="main">
+  <header>
+      <!-- Search Bar -->
     <div class="search-field">
+  
       <div class="search-box">
+        
         <input id="input-field" class="search-field" type="text" />
         <button type="button" class="search-btn " data-toggle="button" aria-pressed="false" autocomplete="off" id="search-button " onclick="loadProducts()">
           Search
         </button>
       </div>
     </div>
+  </header>
+  <main class="main">
+  
+    
     <div class="row">
+
+      <!-- Display Product -->
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" >
         
         </div>
       </div>
+      <!-- My Cart -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
